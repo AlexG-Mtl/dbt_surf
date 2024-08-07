@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbt_surf_prj
+    database: SURFALYTICS_DW_AlexG7
+    schema: stg
+
+    tables:
+      - name: orders
+      - name: people
+      - name: returns
