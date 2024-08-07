@@ -1,1 +1,0 @@
-select * from {{source('dbt_surf_prj','orders')}}

@@ -1,11 +1,12 @@
 version: 2
 
 sources:
-  - name: dbt_surf_prj
+  - name: superstore_surf
     database: SURFALYTICS_DW_AlexG7
     schema: stg
 
     tables:
       - name: orders
+        descriotion: raw order data
       - name: people
       - name: returns
